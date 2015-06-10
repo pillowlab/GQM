@@ -14,7 +14,7 @@ The GQM is a probabilistic model of a response `y` conditioned upon a stimulus `
 
 where `Q(x) = x^T C x + b^T x + a` is a quadratic function of the stimulus and `P` is a noise model. 
 
-For example, for continuous-valued $y$ one might select `P` to be Gaussian, whereas for discreted-valued `y` one might choose `P` to be Poisson. The GQM is closely-related to the Generalized Linear Model (GLM), the Linear-Nonlinear-Poisson model and the 2nd-order Volterra model, among others; please see the paper for further details. 
+For example, for continuous-valued `y` one might select `P` to be Gaussian, whereas for discreted-valued `y` one might choose `P` to be Poisson. The GQM is closely-related to the Generalized Linear Model (GLM), the Linear-Nonlinear-Poisson model and the 2nd-order Volterra model, among others; please see the paper for further details. 
 
 
 ## Maximum Expected Log-Likelihood (MEL) Estimators 
